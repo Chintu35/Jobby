@@ -1,0 +1,75 @@
+.job-container {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.title-box-container {
+  display: flex;
+}
+.company-url {
+  height: 35px;
+  margin-top: 15px;
+  width: 45px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+.title {
+  font-size: 20px;
+}
+.rating {
+  font-size: 18px;
+}
+
+.title-container {
+  padding-left: 15px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+}
+.middle {
+  display: flex;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.para {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.salary {
+  font-size: 20px;
+  font-weight: bold;
+}
+.description-title {
+  font-size: 25px;
+}
+.description {
+  font-size: 18px;
+}
+.try-button {
+  background-color: #6366f1;
+  border-radius: 5px;
+  height: 8px;
+  color: #ffffff;
+  width: 150px;
+}
+@media screen and (min-width: 576px) {
+  .company-url {
+    height: 45px;
+    margin-top: 20px;
+    width: 55px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .description-title {
+    font-size: 25px;
+  }
+}

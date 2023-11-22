@@ -1,0 +1,51 @@
+.logo {
+  height: 35px;
+  width: 85px;
+  margin: 15px;
+  margin-left: 15px;
+}
+.header-container {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+  margin: 15px;
+}
+.buttons-container {
+  margin-right: 20px;
+}
+.buttons-container-window {
+  display: none;
+}
+.button {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .buttons-container {
+    display: none;
+  }
+  .logo {
+    margin: 20px;
+  }
+  .buttons-container-window {
+    list-style: none;
+    display: flex;
+  }
+  .links {
+    margin: 20px;
+    color: #ffffff;
+  }
+  .button {
+    background-color: #6366f1;
+    height: 35px;
+    width: 110px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 20px;
+  }
+}

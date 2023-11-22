@@ -1,0 +1,19 @@
+.filter-container {
+  background-color: #000000;
+  padding: 10px;
+}
+.header {
+  color: #ffffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.label-name {
+  color: #ffffffff;
+  font-size: 15px;
+}
+.line {
+  color: #ffffff;
+}
+.checkbox-container {
+  margin: 10px;
+}

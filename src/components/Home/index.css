@@ -1,0 +1,44 @@
+.home-container {
+  background-color: #000000;
+}
+.head {
+  font-size: 35px;
+  color: #ffffff;
+  padding: 30px;
+  padding-top: 65px;
+}
+.para {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 30px;
+}
+* {
+  margin: 0;
+}
+.find-button {
+  background-color: #6366f1;
+  border-radius: 5px;
+  height: 30px;
+  color: #ffffff;
+  width: 120px;
+  margin: 25px;
+}
+.home-logo {
+  width: 100%;
+  height: 30%;
+}
+
+@media screen and (min-width: 576px) {
+  .head {
+    font-size: 55px;
+  }
+  .para {
+    font-size: 35px;
+  }
+  .home-container {
+    display: flex;
+  }
+  .home-logo {
+    height: 100vh;
+  }
+}
